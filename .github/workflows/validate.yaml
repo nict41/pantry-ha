@@ -18,4 +18,5 @@ jobs:
       - uses: hacs/action@main
         with:
           category: integration
-          ignore: brands
+          # Description and topics only matter for the default HACS store.
+          ignore: brands description topics

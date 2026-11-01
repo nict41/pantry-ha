@@ -5,9 +5,9 @@
   "config_flow": true,
   "dependencies": ["webhook"],
   "documentation": "https://github.com/nict41/pantry-ha",
-  "issue_tracker": "https://github.com/nict41/pantry-ha/issues",
   "integration_type": "service",
   "iot_class": "local_push",
+  "issue_tracker": "https://github.com/nict41/pantry-ha/issues",
   "requirements": [],
   "version": "0.1.0"
 }

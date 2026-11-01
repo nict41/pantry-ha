@@ -34,7 +34,7 @@ class PantryConfigFlow(ConfigFlow, domain=DOMAIN):
         self, user_input: dict[str, object] | None = None
     ) -> ConfigFlowResult:
         """Create the single Pantry entry."""
-        await self._async_abort_entries_match()
+        self._async_abort_entries_match()
 
         if user_input is not None:
             webhook_id = webhook.async_generate_id()
