@@ -1,0 +1,13 @@
+{
+  "domain": "pantry",
+  "name": "Pantry",
+  "codeowners": ["@nict41"],
+  "config_flow": true,
+  "dependencies": ["webhook"],
+  "documentation": "https://github.com/nict41/pantry-ha",
+  "issue_tracker": "https://github.com/nict41/pantry-ha/issues",
+  "integration_type": "service",
+  "iot_class": "local_push",
+  "requirements": [],
+  "version": "0.1.0"
+}

@@ -1,0 +1,34 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Pantry",
+        "description": "Adds a link for the Pantry Android app. Nothing is sent to the app."
+      }
+    },
+    "abort": {
+      "already_configured": "Pantry is already set up."
+    },
+    "create_entry": {
+      "default": "Copy this link into the Pantry app under Settings > Home Assistant. Treat it like a password.\n\n`{webhook_url}`"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Pantry link",
+        "description": "Copy this link into the Pantry app under Settings > Home Assistant. Treat it like a password.\n\n`{webhook_url}`"
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "items": { "name": "Items" },
+      "expiring_soon": { "name": "Expiring soon" },
+      "expired": { "name": "Expired" },
+      "needs_date": { "name": "Needs a date" },
+      "frozen": { "name": "Frozen" },
+      "last_sync": { "name": "Last sync" }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "entity": {
+    "sensor": {
+      "items": { "default": "mdi:fridge-outline" },
+      "expiring_soon": { "default": "mdi:clock-alert-outline" },
+      "expired": { "default": "mdi:alert-circle-outline" },
+      "needs_date": { "default": "mdi:calendar-question" },
+      "frozen": { "default": "mdi:snowflake" },
+      "last_sync": { "default": "mdi:sync" }
+    }
+  }
+}
